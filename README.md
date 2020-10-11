@@ -9,10 +9,10 @@ The main purpose of this analysis is to help Maria to replace the math and readi
 
 Comparing the District Summary challenge results 
 
-![](District_summary_challenge.png )
+![](Resources/District_summary_challenge.png )
 
 with District  Summary dataframe from the module, 
-![](District_summary_module.png)
+![](Resources/District_summary_module.png)
 
 we can notice that in the changed dataframe  
 
@@ -28,13 +28,13 @@ Comapring School Summary results
 
 As you can notice below,
 
-![](school_summary_module.png)
+![](Resources/School_summary_module.png)
  
 Without changes to Thomas High School 9th grade scores,  the "% Passing Math", "% Passing Reading" and "% Overall Passing numbers are "93.272171", "97.308869" and "90.948012" respectively.
 
 With making 9th grader scores to NaN, these percentages drop drastically to "66.911315", 	"69.663609" and "65.076453" as you can see below 
 
-![](School_summary_challenge.png)
+![](Resources/School_summary_challenge.png)
 
 ## How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
@@ -46,36 +46,40 @@ With making 9th grader math and reading scores to NaN, the "% Passing Math", "% 
  
 As you can see below, there is no change in the math and reading score results of 10th, 11th and 12th graders at Thomas High School.
 
-![](Math_scores_challenge.png)
+#### Math Scores
 
-![](Math_scores_module.png)
+![](Resources/Math_scores_challenge.png)
 
-![](Reading_scores_challenge.png)
+![](Resources/Math_scores_module.png)
 
-![](Reading_scores_module.png)
+#### Reading Scores
+
+![](Resources/Reading_scores_challenge.png)
+
+![](Resources/Reading_scores_module.png)
 
 ### Scores by school spending
 
 AS you can see in screen shots below,
 
-![](Spending_summary_challenge.png)
+![](Resources/Spending_summary_challenge.png)
 
 and
 
-![](Spending_summary_module.png)
+![](Resources/Spending_summary_module.png)
 
 
 there has been no change in "Average Math Score", "Average Reading Score	", "% Passing Math", "% Passing Reading" and "% Overall Passing" for any of the spending bin ranges per student.
 
 ### Scores by school size
 
-AS you can see in screen shots below,
+As you can see in screen shots below,
 
-![](Size_summary_challenge.png)
+![](Resources/Size_summary_challenge.png)
 
 and 
 
-![](Size_summary_module.png)
+![](Resources/Size_summary_module.png)
 
 
 "Average Math Score", "Average Reading Score", "% Passing Math", "% Passing Reading" and "% Overall Passing" for any of the school size ranges aren't affected by replacement of the ninth-grade scores.
@@ -84,11 +88,11 @@ and
 
 As you can see in screen shots below,
 
-![](Type_summary_challenge.png)
+![](Resources/Type_summary_challenge.png)
 
 and
 
-![](Type_summary_module.png)
+![](Resources/Type_summary_module.png)
 
 
 "Average Math Score", "Average Reading Score", "% Passing Math", "% Passing Reading" and "% Overall Passing" for either Charter or District school aren't affected by the replacement of the ninth-grade scores.
